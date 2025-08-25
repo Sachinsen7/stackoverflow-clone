@@ -3,7 +3,7 @@ import createAnswerCollection from "./answer.collection";
 import createCommentCollection from "./comment.collections";
 import createQuestionsCollection from "./question.collection";
 import createVoteCollection from "./vote.collection";
-import getOrCreateStorageBucket from "./storage.collection";
+import getOrCreateStorageBucket from "./storage-setup";
 
 import { databases } from "./config";
 
