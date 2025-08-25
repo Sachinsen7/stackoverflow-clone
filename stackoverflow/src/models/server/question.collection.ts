@@ -51,24 +51,24 @@ export default async function createQuestionsCollection() {
 
   console.log("Question attributes created");
 
-  //   await Promise.all([
-  //     databases.createIndex(
-  //       db,
-  //       questionCollection,
-  //       "title",
-  //       IndexType.Fulltext,
-  //       ["title"],
-  //       ["asc"]
-  //     ),
-  //     databases.createIndex(
-  //       db,
-  //       questionCollection,
-  //       "content",
-  //       IndexType.Fulltext,
-  //       ["content"],
-  //       ["asc"]
-  //     ),
-  //   ]);
+  // await Promise.all([
+  //   databases.createIndex(
+  //     db,
+  //     questionCollection,
+  //     "title",
+  //     IndexType.Fulltext,
+  //     ["title"],
+  //     ["asc"]
+  //   ),
+  //   databases.createIndex(
+  //     db,
+  //     questionCollection,
+  //     "content",
+  //     IndexType.Fulltext,
+  //     ["content"],
+  //     ["asc"]
+  //   ),
+  // ]);
 
   // this can be added via appwrite docs
 }
